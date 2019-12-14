@@ -44,8 +44,8 @@ Buy me a coffee ☕ here `https://paypal.me/valaxy`, _or_ You can reach out to g
 
 #### References
 
-1. [Recover Lost Key Pair of AWS EC2 using Userdata](https://www.youtube.com/watch?v=Bqt538HRsws)
-1. [Recover Key Pair of AWS EC2](https://www.youtube.com/watch?v=5btWXn4yWzQ)
+1. [Getting Started with Custom Rules](https://docs.aws.amazon.com/config/latest/developerguide/evaluate-config_develop-rules_getting-started.html)
+1. [AWS Config Rule Development Kit](https://aws.amazon.com/blogs/mt/introducing-the-aws-config-rule-development-kit-rdk/)
 
 ### Metadata
 
