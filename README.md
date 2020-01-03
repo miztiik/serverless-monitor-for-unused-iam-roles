@@ -17,8 +17,11 @@
     Make sure you have `AWS CLI` profile configured. You should have at [minimum these permissions](https://github.com/awslabs/aws-config-rdk/blob/master/policy/rdk-minimum-permissions.json) before executing below commands
 
     ```sh
+    # Clone the repo
     git clone https://github.com/miztiik/serverless-monitor-for-unused-iam-roles.git
     cd serverless-monitor-for-unused-iam-roles
+
+    # Setup some global variables
     dir_name="mystique-infosec"
     custom_rule_name="monitor_unused_iam_roles"
 
