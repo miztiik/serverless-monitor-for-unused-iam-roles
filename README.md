@@ -37,7 +37,7 @@
     rdk init
 
     # Lets create a LOCAL rule
-    rdk create ${custom_rule_name} --runtime python3.7 --resource-types AWS::IAM::User
+    rdk create ${custom_rule_name} --runtime python3.7 --resource-types AWS::IAM::Role
     ```
 
 1. ## Copy the `Config Rule code`
