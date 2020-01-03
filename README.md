@@ -2,8 +2,7 @@
 
  Identify inactive roles using `role last used` information using Lambda function and continuously monitoring role activity using AWS Config. You can extend this solution to push the `NON COMPLIANT` information to SNS and get the necessary teams involved in the clean up operation.
 
-   ![Monitor unused IAM roles with AWS Config Custom Rules
-](images/miztiik_github_aws_config_monitor_unused_iam_roles.png)
+   ![Monitor unused IAM roles with AWS Config Custom Rules](images/miztiik_github_aws_config_monitor_unused_iam_roles.png)
 
   Follow this article in **[Youtube](https://youtu.be/a4gOXBrVe6w)**
 
@@ -15,6 +14,8 @@ Make sure you have `AWS CLI` profile configured before executing below commands
 dir_name="kon"
 custom_rule_name="monitor_unused_iam_roles"
 
+# If you dont have venv installed already
+# pip install virtualenv
 python3 -m venv ${dir_name}
 cd ${dir_name}
 source bin/activate
